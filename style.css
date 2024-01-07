@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;;
+
+}
+.main-header{
+    position: relative;
+    margin-bottom: 200px;
+}
+.main-header img{
+    width: 100%;
+    height: 100vh;
+}
+.header-content{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    right: 200px;
+    text-align: right;
+}
+.header-content h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+.header-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #737272;
+}
+.header-content button{
+    background-color: #F15B22;
+    border-radius: 5px;
+    padding: 12px 20px;
+    border: 0;
+    font-weight: 700;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+}
+/* Header css end from here */
+
+/* middle section start from here */
+.middle-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px 0 50px;
+}
+.middle-container img{
+    width: 100%;
+}
+.middle-content{
+    margin-left: 200px;
+}
+.middle-content h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+.middle-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px 0 0 10px;
+    color: #737272;
+}
+.middle-content ul{
+    list-style-type: none;
+    margin: 10px 0 0 10px;
+}
+.middle-content ul li{
+    margin-top: 10px;
+    color: #737272;
+}
+/* end here middle css */
+
+/* my plan css start from here */
+.my-plans{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.my-plans h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+.plans-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    align-items: center;
+    text-align: center;
+}
+.plans-container h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+}
+.plans-container p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+
+/* call now section start */
+.call-now{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    
+}
+.call-now img{
+   width: 100%;
+}
+.call-now-content{
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+}
+.call-now-content h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+.call-now-content button{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 12px 16px;
+    border: 0;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* footer css start from here */
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
